@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "country": "Japan",
+      "capital": "Tokyo",
+      "population": "125.7 million",
+      "interestingFact": "Japan has more pets than children."
+    },
+    {
+      "id": 2,
+      "country": "Canada",
+      "capital": "Ottawa",
+      "population": "39 million",
+      "interestingFact": "Canada has the longest coastline in the world."
+    },
+    {
+      "id": 3,
+      "country": "Brazil",
+      "capital": "Brasília",
+      "population": "214 million",
+      "interestingFact": "The Amazon rainforest produces 20% of the world's oxygen."
+    },
+    {
+      "id": 4,
+      "country": "India",
+      "capital": "New Delhi",
+      "population": "1.43 billion",
+      "interestingFact": "India is the world's largest democracy."
+    },
+    {
+      "id": 5,
+      "country": "Russia",
+      "capital": "Moscow",
+      "population": "143 million",
+      "interestingFact": "Russia spans 11 time zones."
+    },
+    {
+      "id": 6,
+      "country": "Australia",
+      "capital": "Canberra",
+      "population": "26 million",
+      "interestingFact": "Australia is home to more kangaroos than people."
+    },
+    {
+      "id": 7,
+      "country": "Egypt",
+      "capital": "Cairo",
+      "population": "111 million",
+      "interestingFact": "The Great Pyramid of Giza is the only ancient wonder still in existence."
+    },
+    {
+      "id": 8,
+      "country": "Switzerland",
+      "capital": "Bern",
+      "population": "8.9 million",
+      "interestingFact": "Switzerland has not been in a war since 1815."
+    },
+    {
+      "id": 9,
+      "country": "China",
+      "capital": "Beijing",
+      "population": "1.41 billion",
+      "interestingFact": "China is the world's most populous country."
+    },
+    {
+      "id": 10,
+      "country": "Iceland",
+      "capital": "Reykjavík",
+      "population": "375,000",
+      "interestingFact": "Iceland has no mosquitoes."
+    }
+  ]
+  
