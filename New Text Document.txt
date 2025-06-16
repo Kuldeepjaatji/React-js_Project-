@@ -1,0 +1,35 @@
+🔥 JSX Project Website Name Ideas (6 Pages Website)
+1. SkillSphere
+Theme: Personal Portfolio / Skills-Based
+
+Pages: Home, About, Skills, Projects, Contact, Resume
+
+2. CodeNest
+Theme: Developer Portfolio
+
+Pages: Home, Projects, Skills, Blog, Contact, About
+
+3. PixelCraft
+Theme: Designer / Developer Showcase
+
+Pages: Home, Portfolio, Services, About, Contact, Feedback
+
+4. EduVerse
+Theme: Education / Learning Platform
+
+Pages: Home, Courses, Instructors, Blog, Contact, FAQs
+
+5. DevTrail
+Theme: Software Developer Portfolio
+
+Pages: Home, About Me, Skills, Projects, Testimonials, Contact
+
+6. InnoHub
+Theme: Startup / Tech Product
+
+Pages: Home, Features, Pricing, About Us, Blog, Contact
+
+7. DreamBuild
+Theme: Creative Portfolio / Resume Builder
+
+Pages: Home, About, Services, Portfolio, Contact, Resume
