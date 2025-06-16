@@ -1,0 +1,12 @@
+.input{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: right;
+  outline: none;
+  background-color: rgba(210, 105, 30, 0.795);
+}
+.input:hover{
+    background-color: rgb(210, 105, 30);
+    box-shadow: 2px 2px 5px red,-2px 2px 5px red,2px -2px 5px red,-2px -2px 5px red;
+}

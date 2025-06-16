@@ -1,0 +1,71 @@
+.spotlight-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0b0f17;
+  position: relative;
+  overflow: hidden;
+}
+
+.spotlight-bg {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, #00cfff33, transparent 70%);
+  border-radius: 50%;
+  filter: blur(80px);
+  animation: slowPulse 6s ease-in-out infinite;
+}
+
+.card-container {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 255, 255, 0.1);
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.card-container:hover {
+  transform: translateY(-10px);
+}
+
+.floating-img {
+  width: 280px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  transition: transform 0.4s ease;
+}
+
+.floating-img:hover {
+  transform: scale(1.03);
+}
+
+.card-name {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  text-shadow: 0 0 8px #00f0ff66;
+  font-family: "Segoe UI", sans-serif;
+}
+
+@keyframes slowPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+}

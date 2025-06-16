@@ -4,17 +4,17 @@ import {NavLink} from 'react-router-dom'
 export const Header = () => {
   return (
     <header>
-      <div className='container'>
+      <div className='container header'>
       <div className='grid navbar-grid'>
         <div className='Logo'>
           <NavLink to="/home" style={{ textDecoration: 'none'}}>
           <h1>WorldAtlas</h1>
           </NavLink>
         </div>
-        <nav>
+        <nav className='Logo2'>
           <ul>
             <li>
-              <NavLink to="/home" style={{ textDecoration: 'none'}}>Home</NavLink>
+              <NavLink to="/" style={{ textDecoration: 'none'}}>Home</NavLink>
             </li>
             <li>
               <NavLink to="/about" style={{ textDecoration: 'none'}}>About</NavLink>
@@ -22,7 +22,7 @@ export const Header = () => {
             <li>
               <NavLink to="/country" style={{ textDecoration: 'none'}}>Country</NavLink>
             </li>
-            
+
             <li>
               <NavLink to="/contact" style={{ textDecoration: 'none'}}>Contact</NavLink>
             </li>

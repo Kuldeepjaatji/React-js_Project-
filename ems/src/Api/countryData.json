@@ -1,10 +1,10 @@
 [
-    {
+   {
       "id": 1,
-      "country": "Japan",
-      "capital": "Tokyo",
-      "population": "125.7 million",
-      "interestingFact": "Japan has more pets than children."
+      "country": "India",
+      "capital": "New Delhi",
+      "population": "1.43 billion",
+      "interestingFact": "India is the world's largest democracy."
     },
     {
       "id": 2,
@@ -22,10 +22,10 @@
     },
     {
       "id": 4,
-      "country": "India",
-      "capital": "New Delhi",
-      "population": "1.43 billion",
-      "interestingFact": "India is the world's largest democracy."
+      "country": "Japan",
+      "capital": "Tokyo",
+      "population": "125.7 million",
+      "interestingFact": "Japan has more pets than children."
     },
     {
       "id": 5,
@@ -61,13 +61,6 @@
       "capital": "Beijing",
       "population": "1.41 billion",
       "interestingFact": "China is the world's most populous country."
-    },
-    {
-      "id": 10,
-      "country": "Iceland",
-      "capital": "Reykjavík",
-      "population": "375,000",
-      "interestingFact": "Iceland has no mosquitoes."
     }
   ]
   

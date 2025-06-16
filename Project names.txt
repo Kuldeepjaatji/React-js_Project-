@@ -1,0 +1,115 @@
+5. Stopwatch / Timer App – टाइमर या स्टॉपवॉच
+
+6. Form Validator – रियल-टाइम फॉर्म वेलिडेशन
+
+7. Expense Tracker – खर्चों का हिसाब रखने वाला ऐप
+
+8. Notes App – डिजिटल नोट्स बनाने वाला ऐप
+
+9. Recipe Finder – रेसिपी खोजने वाला ऐप (API आधारित)
+
+10. Currency Converter – करंसी को बदलने वाला ऐप
+
+11. Movie Search App – मूवी डेटाबेस सर्च (OMDb API आदि से)
+
+12. BMI Calculator – बॉडी मास इंडेक्स निकालने वाला
+
+13. Typing Speed Test – टाइपिंग स्पीड चेक करने वाला गेम
+
+14. Music Player – बेसिक ऑडियो प्लेयर
+
+15. Photo Gallery – इमेज गैलरी (फिल्टरिंग के साथ)
+
+16. Dark Mode Toggle App – लाइट/डार्क मोड वाला UI
+
+17. Markdown Previewer – लाइव मार्कडाउन व्यूअर
+
+18. Quiz App – मल्टीपल चॉइस क्विज
+
+19. E-commerce Cart UI – शॉपिंग कार्ट वाला UI
+
+20. Portfolio Website – अपना पोर्टफोलियो दिखाने वाला साइट
+
+
+
+
+                                 21. Intermediate-Level Fun & Useful JSX Projects:-11
+i) Emoji Interpreter
+
+   .   यूज़र कोई emoji डाले और उसका मतलब दिखे
+
+ . Dictionary object या API से
+
+ii) Text Utils App
+
+  .  टेक्स्ट को Uppercase, Lowercase, Count Words, Copy Text etc.
+
+iii) Password Generator
+
+ . Random strong password बनाने वाला tool
+
+iv) OTP Generator
+
+v) Weather by Location
+
+यूज़र की लोकेशन लेकर Weather API से डेटा दिखाना
+
+vi) Language Translator
+
+ . Input text को Google Translate API से translate करना
+
+vii) Netflix Clone (UI Only)
+
+ . Netflix जैसा React-based front-end बनाना
+
+viii) Image Slider / Carousel
+
+ . Auto or manual image scroll (like a banner)
+
+ix) Color Picker App
+
+  .  यूज़र hex या RGB कलर सिलेक्ट करे और live preview दिखे
+
+x) Dictionary App
+
+ . Word डालो → API से Meaning + Synonyms दिखाओ
+
+xi) Flashcard Quiz App
+
+  .  सवाल और जवाब वाले फ्लिप कार्ड बनाना
+
+                                                 22. Creative & Mini Game Projects:-7
+i) Tic Tac Toe (Multiplayer or CPU)
+
+ii) Rock Paper Scissors
+
+iii) Memory Card Game (Flip and Match)
+
+iv) Dice Roller
+
+v) Whack-a-Mole Clone
+
+vi) Typing Speed Challenge
+
+vii) Number Guessing Game
+
+                                                23. Productivity or Utility Based Ideas:-5
+i) Pomodoro Timer
+
+  25 min work + 5 min break timer with progress
+
+ii) Habit Tracker
+
+ . Daily habits को ट्रैक करने वाला ऐप
+
+iii) Grocery List App
+
+  .  सामान जोड़ो, हटाओ, quantity बदलो
+
+iv) Daily Journal App
+
+  .  हर दिन की entry (CRUD operations)
+
+v) Sticky Notes App
+
+  . रंगीन नोट्स बनाओ, मूव करो, डिलीट करो
