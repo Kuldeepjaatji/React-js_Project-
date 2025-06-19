@@ -1,0 +1,150 @@
+/* === Container === */
+.form-container {
+  max-width: 420px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.app.dark .form-container {
+  background-color: #1e1e1e;
+  color: #eee;
+  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.05);
+}
+
+/* === Headings === */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* === Form Groups === */
+.form-group {
+  margin-bottom: 16px;
+}
+
+/* === Labels === */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* === Input Wrapper with Error Icon === */
+.input-with-icon {
+  position: relative;
+}
+
+/* === Inputs === */
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.3s ease, background 0.3s ease;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #fff;
+}
+
+input.error {
+  border-color: #e74c3c;
+}
+
+/* === Error Icon === */
+.error-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #e74c3c;
+}
+
+/* === Error Text === */
+.error-msg {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: 5px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* === Buttons === */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* === Button Group (Multi-step) === */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* === Success Text === */
+.success-msg {
+  color: #2ecc71;
+  font-weight: 500;
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+  margin-top: 10px;
+}
+
+/* === FadeIn Animation === */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* === Shake Animation (on error) === */
+.shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+/* === Responsive === */
+@media screen and (max-width: 480px) {
+  .form-container {
+    padding: 1.2rem;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  input, button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

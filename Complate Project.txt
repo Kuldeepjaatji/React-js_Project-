@@ -6,3 +6,7 @@
 3. Weather App – API से मौसम दिखाने वाला ऐप
 
 4. Quote Generator – रैंडम मोटिवेशनल कोट्स दिखाने वाला
+
+5. Stopwatch / Timer App – टाइमर या स्टॉपवॉच
+
+6. Form Validator – रियल-टाइम फॉर्म वेलिडेशन

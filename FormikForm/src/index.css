@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.app.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.theme-toggle {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.theme-toggle button {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  color: inherit;
+}
