@@ -2,11 +2,9 @@
 
 
 
-7. Expense Tracker – खर्चों का हिसाब रखने वाला ऐप
 
-8. Notes App – डिजिटल नोट्स बनाने वाला ऐप
 
-9. Recipe Finder – रेसिपी खोजने वाला ऐप (API आधारित)
+
 
 10. Currency Converter – करंसी को बदलने वाला ऐप
 

@@ -10,3 +10,9 @@
 5. Stopwatch / Timer App – टाइमर या स्टॉपवॉच
 
 6. Form Validator – रियल-टाइम फॉर्म वेलिडेशन
+
+7. Expense Tracker – खर्चों का हिसाब रखने वाला ऐप
+
+8. Notes App – डिजिटल नोट्स बनाने वाला ऐप
+
+9. Recipe Finder – रेसिपी खोजने वाला ऐप (API आधारित)

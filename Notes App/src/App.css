@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.app {
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  padding: 2rem;
+  width: 90%;
+  max-width: 600px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  resize: none;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s;
+}
+
+textarea:focus {
+  border-color: #ff7e5f;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  background: #ff7e5f;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #eb5e28;
+}
+
+.notes-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.note-card {
+  background-color: #fff8f0;
+  padding: 15px;
+  border-left: 6px solid #ff7e5f;
+  border-radius: 8px;
+  animation: popIn 0.4s ease;
+  position: relative;
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.note-card button {
+  background: transparent;
+  color: #d63031;
+  font-weight: normal;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
